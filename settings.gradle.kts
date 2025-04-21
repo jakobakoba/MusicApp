@@ -21,3 +21,11 @@ dependencyResolutionManagement {
 
 rootProject.name = "MusicApp"
 include(":app")
+include(":core-ui")
+include(":core-model")
+include(":core-player")
+include(":feature-local-list")
+include(":feature-api-list")
+include(":feature-playback")
+include(":data-network")
+include(":data-local")
