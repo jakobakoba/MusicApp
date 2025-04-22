@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.bor96dev.musicapp"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.bor96dev.musicapp"
         minSdk = 26
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -56,4 +56,12 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    implementation(project(":core-ui"))
+    implementation(project(":core-player"))
+    implementation(project(":feature-api-list"))
+    implementation(project(":feature-local-list"))
+    implementation(project(":feature-playback"))
+
+
 }
