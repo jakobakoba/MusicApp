@@ -40,4 +40,9 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    implementation(project(":core-ui"))
+    implementation(project(":core-model"))
+    implementation(project(":core-player"))
+    implementation(project(":data-network"))
 }

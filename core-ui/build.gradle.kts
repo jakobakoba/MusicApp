@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.bor96dev.core_ui"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         minSdk = 26

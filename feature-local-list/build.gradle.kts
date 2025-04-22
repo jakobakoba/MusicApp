@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.bor96dev.feature_local_list"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         minSdk = 26
@@ -40,4 +40,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    implementation(project(":core-ui"))
+    implementation(project(":core-model"))
+    implementation(project(":core-player"))
 }

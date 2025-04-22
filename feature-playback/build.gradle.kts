@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.bor96dev.feature_playback"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         minSdk = 26
